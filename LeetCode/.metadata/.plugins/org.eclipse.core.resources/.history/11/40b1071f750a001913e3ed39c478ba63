@@ -1,0 +1,15 @@
+package com.leetcode.solution;
+
+public class Test {
+	int name;
+	int age;
+	public Test(int name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	public static void main(String[] args) {
+		Test t1 = new Test(1,2);
+		Test t2 = t1;
+	}
+}

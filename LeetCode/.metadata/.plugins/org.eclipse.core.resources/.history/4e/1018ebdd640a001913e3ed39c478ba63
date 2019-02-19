@@ -1,0 +1,48 @@
+package com.leetcode.pjx;
+
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * 两数相加
+ * 
+ * @author Administrator
+ *
+ */
+public class Subject002 {
+	public static void main(String[] args) {
+		Solution s = new Solution();
+		s.addTwoNumbers(l1, l2);
+	}
+}
+
+/**
+ * Definition for singly-linked list. public class ListNode { int val; ListNode
+ * next; ListNode(int x) { val = x; } }
+ */
+class Solution {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		List node1 = new LinkedList<>();
+		List node2 = new LinkedList<>();
+		List node3 = new LinkedList<>();
+		int maxSize;
+		node1.add(l1);
+		node2.add(l2);
+		if(node1.size()<=node2.size()){
+			max = node1.size();
+		}
+		for(int i=0;;i++){
+			node2.set(i, 1);
+		}
+		return l1;
+	}
+
+	class ListNode {
+		int val;
+		ListNode next;
+
+		ListNode(int x) {
+			val = x;
+		}
+	}
+}
