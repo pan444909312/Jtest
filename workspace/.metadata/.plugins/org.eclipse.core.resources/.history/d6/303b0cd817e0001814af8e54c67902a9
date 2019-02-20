@@ -1,0 +1,11 @@
+package com.test.pjx;
+
+public class TestEquals extends TestExtends{
+	
+	
+	public static void main(String[] args) {
+		Object obj;
+		String s;
+	}
+
+}

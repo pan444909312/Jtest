@@ -1,0 +1,53 @@
+package com.Generics;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+/**
+ * 测试collection接口中的方法
+ * @author admin
+ *
+ */
+public class TestList {
+	
+	public void test01() {
+
+		Collection<String> c = new ArrayList<>();
+		System.out.println(c.size());
+		System.out.println(c.isEmpty());
+		c.add("张一");
+		c.add("张二");
+		c.add("张三");
+		System.out.println(c);
+		System.out.println(c.size());
+		System.out.println(c.isEmpty());
+		System.out.println(c.contains("张三"));
+		
+		Object o[] = c.toArray();		//容器转换数组
+		System.out.println(Arrays.toString(o));
+		
+		c.remove("张二");
+		System.out.println(c);
+		c.removeAll(c);
+		System.out.println(c.size());
+		System.out.println(c.contains("张三"));
+	
+	}
+	
+	public void test02() {
+		List<String> l1 = new ArrayList<>();
+		l1.add("aa");
+		l1.add("bb");
+		l1.add("cc");
+		
+		
+	}
+	
+	public static void main(String[] args) {
+
+		TestList t1 = new TestList();
+		t1.test01();
+	}
+	
+}

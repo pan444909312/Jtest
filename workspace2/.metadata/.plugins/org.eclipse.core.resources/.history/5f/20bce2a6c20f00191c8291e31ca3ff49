@@ -1,0 +1,15 @@
+package com.collection;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TestTreeMap {
+	public static void main(String[] args) {
+		Map<Integer, String> m1 = new TreeMap<>();
+		m1.put(11, "aa");
+		m1.put(121, "bb");
+		m1.put(31, "cc");
+		m1.put(91, "dd");
+		System.out.println(m1);
+	}
+}

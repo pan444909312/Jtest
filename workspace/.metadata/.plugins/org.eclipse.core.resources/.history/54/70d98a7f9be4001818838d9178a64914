@@ -1,0 +1,44 @@
+package com.test.pjx;
+
+import java.util.Scanner;
+
+public class Person3 {
+	public static void main(String[] args) {
+		
+		Person2 p = new Person2();
+		Scanner sca = new Scanner(System.in);	
+
+		p.setName("xxy");
+		p.setAge(23);
+		p.setSex("女");	
+
+		
+		System.out.println(p.getName()+"\n"+p.getAge()+"\n"+p.getSex());
+		p.rest();
+		
+		Person2 b = new Boy() ;   //可以自动向上转型
+		//相当于  Boy b = new Boy();
+		Girl g = new Girl();
+		personRest(b);
+		personRest(g);
+		personRest(p);
+		g.makeUp();
+//		b.play();  
+		Boy b2 =(Boy)b;  //向下转型需要强制转型
+		Girl b3 = (Girl)b;
+		b3.play();
+		b2.play();       //才可以条用Boy的方法，不然对象变量b 默认是Person2类的，只能条用Person2类的方法，不能调用Boy类的方法
+		
+	}
+	/**
+	 * 多态要素：继承，方法重写，父类方法引用指向子类对象
+	 * Boy Girl 继承Person2   ,  Boy Girl有重写Person2中的方法
+	 * 父类方法，通过传入子类对象实现多态，   称为 父类方法引用指向子类对象
+	 */
+	static void personRest(Person2 p) {
+		p.rest();
+	}
+	
+}
+
+

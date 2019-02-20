@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;BinaryConvert&apos; to &apos;NumberSystemConvert&apos;&#x0D;&#x0A;- Original project: &apos;Mission 03&apos;&#x0D;&#x0A;- Original element: &apos;BinaryConvert&apos;&#x0D;&#x0A;- Renamed element: &apos;NumberSystemConvert&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BinaryConvert&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{BinaryConvert.java[BinaryConvert" matchStrategy="1" name="NumberSystemConvert" qualified="false" references="true" similarDeclarations="false" stamp="1540038026950" textual="false" version="1.0"/>
+</session>

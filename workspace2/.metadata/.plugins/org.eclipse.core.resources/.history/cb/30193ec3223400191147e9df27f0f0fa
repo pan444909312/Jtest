@@ -1,0 +1,10 @@
+package com.shenyang.io2;
+
+public class TextCopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

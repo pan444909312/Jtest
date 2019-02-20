@@ -1,0 +1,42 @@
+package com.collection;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TestTreeMap {
+	public static void main(String[] args) {
+		Map<employee, String> m1 = new TreeMap<>();
+		m1.put(new employee(1000,"小徐",001), "aa");
+		m1.put(new employee(20000,"小张",007), "bb");
+		m1.put(new employee(3000,"小胡",003), "cc");
+
+		System.out.println(m1);
+	}
+}
+
+class employee implements Comparable<employee> {
+	int salary;
+	String name;
+	int id;
+	
+	@Override
+	public String toString() {
+		
+		return "[id="+id+",name="+name+",salary="+salary+"]";
+	}
+	public employee(int salary, String name, int id) {
+		super();
+		this.salary = salary;
+		this.name = name;
+		this.id = id;
+	}
+	@Override
+	public int compareTo(employee o) {
+		if(this.salary<o.salary){
+			return -1;
+		}else if (this.salary>o.salary){
+			return 1;
+		}else
+		return 0;
+	}
+}

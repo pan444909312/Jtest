@@ -1,0 +1,31 @@
+package com.test.pjx;
+
+import java.util.Scanner;
+
+public class Person3 {
+	public static void main(String[] args) {
+		
+		Person2 p = new Person2();
+		Scanner sca = new Scanner(System.in);	
+
+		p.setName("xxy");
+		p.setAge(23);
+		p.setSex("Ů");	
+
+		
+		System.out.println(p.getName()+"\n"+p.getAge()+"\n"+p.getSex());
+		p.rest();
+		
+		Person2 b = new Boy() ;
+		Person2 g = new Girl();
+		personRest(b);
+		personRest(g);
+		personRest(p);
+	}
+	static void personRest(Person2 p) {
+		p.rest();
+	}
+	
+}
+
+

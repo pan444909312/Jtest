@@ -1,0 +1,15 @@
+package com.shenyang.io2;
+
+/**
+ * 使用缓冲字符流进行文件拷贝
+ * @author Administrator
+ *
+ */
+public class BufReadWwrite {
+	public static void bufCopy(String srcPath,String destPath){
+		File src = new File()
+	}
+	public static void main(String[] args) {
+		
+	}
+}

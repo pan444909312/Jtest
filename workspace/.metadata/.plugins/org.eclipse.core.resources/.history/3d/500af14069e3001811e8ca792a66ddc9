@@ -1,0 +1,16 @@
+package com.test.pjx;
+
+import java.util.Scanner;
+
+public class Person3 {
+	public static void main(String[] args) {
+		Person2 p = new Person2();
+		p.setAge(11);
+		p.setName("xxy");
+		p.setMale("Ů");
+		System.out.println(p.getName()+"\n"+p.getAge()+"\n"+p.isMale());
+		
+	}
+
+}
+

@@ -1,0 +1,16 @@
+package com.test.pjx;
+
+public class TestEquals extends TestExtends{
+	
+	
+	public static void main(String[] args) {
+		Object obj;
+		String s;
+		Person p1 = new Person("张三","22");
+		Person p2 = new Person("张三","21");
+		System.out.println(p1==p2);
+		System.out.println(p1.equals(p2));
+		
+	}
+
+}

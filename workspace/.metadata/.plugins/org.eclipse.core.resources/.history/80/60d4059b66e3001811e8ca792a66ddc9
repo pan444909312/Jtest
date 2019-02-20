@@ -1,0 +1,19 @@
+package com.test.pjx;
+/**
+ * ≤‚ ‘∑‚◊∞πÊ‘Ú
+ * @author pjx
+ * 
+ *
+ */
+public class Person2 {
+	
+	private String name;
+	private int age;
+	private boolean male;
+	private int id;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

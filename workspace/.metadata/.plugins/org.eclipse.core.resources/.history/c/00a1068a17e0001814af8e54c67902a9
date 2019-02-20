@@ -1,0 +1,43 @@
+package com.test.pjx;
+
+public class TestExtends {
+	public static void main(String[] args) {
+		Student stu = new Student();
+		stu.eat();
+		stu.study();
+		stu.walk();  
+		Person p = new Person();
+		p.walk();
+	}
+}
+
+class Person{
+	String name;
+	String age;
+	String height;
+	String weight;
+	
+	public void rest() {
+		System.out.println("我在休息");
+	}
+	void eat() {
+		System.out.println("我在吃饭");
+	}
+	protected void walk() {
+		System.out.println("我在走路");
+	}
+}
+
+class Student extends Person{
+	String major;
+	void study() {
+		System.out.println("我在学习");
+	}
+	
+}
+
+
+
+
+
+

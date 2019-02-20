@@ -1,0 +1,22 @@
+package com.test.pjx;
+
+public class TestEquals extends TestExtends{
+	
+	
+	public static void main(String[] args) {
+		Object obj;
+		String str1 = "123";
+		String str2 = "123";
+		Person p1 = new Person("张三","22");
+		Person p2 = new Person("张三","21");
+		System.out.println(p1==p2);
+		System.out.println(p1.equals(p2));
+		
+	}
+	
+    public boolean equals(Object obj) {
+        return (this == obj);
+    }
+
+    
+}

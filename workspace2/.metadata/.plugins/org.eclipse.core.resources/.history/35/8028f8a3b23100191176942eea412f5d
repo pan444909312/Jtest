@@ -1,0 +1,26 @@
+package com.shenyang.io2;
+
+public class BufferStreamTest {
+	public static void main(String[] args) {
+		long t1 = System.nanoTime();
+		copy1();
+		long t2 = System.nanoTime();
+		System.out.println(t2-t1);
+		long t3 = System.nanoTime();
+		copy2();
+		long t4 = System.nanoTime();
+		System.out.println(t4-t3);
+	}
+	/**
+	 * 使用缓存字节流处理复制
+	 */
+	public static void copy1(){
+		
+	}
+	/**
+	 * 直接使用字节流进行复制
+	 */
+	public static void copy2(){
+		
+	}
+}

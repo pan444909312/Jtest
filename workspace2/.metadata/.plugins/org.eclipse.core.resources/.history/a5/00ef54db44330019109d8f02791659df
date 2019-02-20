@@ -1,0 +1,18 @@
+package com.decorate;
+
+public class DecorateTest02 {
+
+}
+
+//抽象组件
+interface Person{
+	String name;
+	int age;
+	
+}
+
+//具体组件
+class Athletes implements Person{
+	
+}
+class Artist

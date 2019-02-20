@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="-5" key="DIALOG_X_ORIGIN"/>
+		<item value="-116" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="columns">
+			<item value="278"/>
+			<item value="558"/>
+		</list>
+		<list key="bounds">
+			<item value="806"/>
+			<item value="301"/>
+			<item value="878"/>
+			<item value="606"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>

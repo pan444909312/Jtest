@@ -1,0 +1,27 @@
+package com.collection;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TestTreeMap {
+	public static void main(String[] args) {
+		Map<employee, String> m1 = new TreeMap<>();
+		m1.put(new employee(1000,"小徐",001), "aa");
+		m1.put(new employee(20000,"小张",007), "aa");
+		m1.put(new employee(3000,"小胡",003), "aa");
+
+		System.out.println(m1);
+	}
+}
+
+class employee{
+	int salary;
+	String name;
+	int id;
+	public employee(int salary, String name, int id) {
+		super();
+		this.salary = salary;
+		this.name = name;
+		this.id = id;
+	}
+}
