@@ -1,0 +1,9 @@
+package com.shenyang.io2;
+/**
+ * 测试转化流 InputStreamReader和OutputStreamWriter
+ * @author Administrator
+ *
+ */
+public class TestConvert {
+
+}

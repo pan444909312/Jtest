@@ -1,0 +1,36 @@
+package com.shenyang.io2;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+
+/**
+ * 测试转化流 InputStreamReader和OutputStreamWriter
+ * @author Administrator
+ *
+ */
+public class TestConvert {
+	public static void main(String[] args) {
+
+		try(BufferedReader isr = new BufferedReader(new InputStreamReader(System.in));
+			BufferedWriter osr = new BufferedWriter(new OutputStreamWriter(System.out, "GBK"));
+				) {
+			String msg = "";
+			while(!msg.equals("exit")){
+				msg = isr.readLine();
+				osr.write(msg);
+				osr.newLine();
+				//强制刷新在循环里，每次输入内容后强制刷新输出内容
+				//否则内容没有到达缓冲的字节数，不会输出
+				osr.flush();
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}
