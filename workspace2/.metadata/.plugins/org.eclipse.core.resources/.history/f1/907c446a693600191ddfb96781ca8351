@@ -1,0 +1,50 @@
+package com.shenyang.io2;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class DataStream01 {
+	public static void main(String[] args) {
+		
+		
+		byte[] datas = null;
+		long t1 = System.nanoTime();
+		try(DataOutputStream dos = new DataOutputStream(
+				new BufferedOutputStream(
+						new FileOutputStream("dataStream.txt")));)	 
+		{
+			//不同数据类型写入baos
+			dos.writeInt(123); 
+			dos.writeUTF("wmi");
+			dos.writeChar('a');
+			dos.writeBoolean(true);
+			dos.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		long t2 = System.nanoTime();
+		System.out.println(t2-t1);
+		//读取
+		
+		try(DataInputStream dis = new DataInputStream(
+				new BufferedInputStream(
+						new ByteArrayInputStream(datas)) );) {
+			//读取顺序和写入顺序 保持一致
+			int a = dis.readInt();
+			String b = dis.readUTF();
+			char c = dis.readChar();
+			boolean d = dis.readBoolean();
+			System.out.println(a);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+}

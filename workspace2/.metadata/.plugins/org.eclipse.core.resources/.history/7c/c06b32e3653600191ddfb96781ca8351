@@ -1,0 +1,31 @@
+package com.shenyang.io2;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+
+public class DataStream {
+	public static void main(String[] args) {
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		
+		byte[] datas = null;
+		try(DataOutputStream dos = new DataOutputStream(baos);
+			DataInputStream dis = new DataInputStream(new ByteArrayInputStream(datas))	) {
+			//不同数据类型写入baos
+			dos.writeInt(123);
+			dos.writeUTF("wmi");
+			dos.writeChar('a');
+			dos.writeBoolean(true);
+			dos.flush();
+			datas = baos.toByteArray();
+			//读取
+			dis.read();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
