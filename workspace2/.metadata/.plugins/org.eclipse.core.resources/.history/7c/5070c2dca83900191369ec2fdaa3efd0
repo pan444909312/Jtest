@@ -1,0 +1,11 @@
+package com.io.utils;
+/**
+ * ²âÊÔFileUtilsµÄ¶ÁÐ´
+ * @author Administrator
+ *
+ */
+public class CommonIO02 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,73 @@
+package com.shenyang.io2;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+
+public class ObjectStream {
+	public static void main(String[] args) {
+		try(ObjectOutputStream oos = new ObjectOutputStream(
+				new BufferedOutputStream(
+						new FileOutputStream("Obj.txt")));) {
+			oos.writeInt(123);
+			oos.writeUTF("xix");
+			oos.writeObject("zxc");
+			oos.writeObject(new Employee("张三", 1231));
+			oos.flush();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		try(ObjectInputStream ois = new ObjectInputStream(
+				new BufferedInputStream(
+						new FileInputStream("Obj.txt")));) {
+			int o1 = ois.readInt();
+			String o2 = ois.readUTF();
+			String o3 = ois.readUTF();
+			Employee o4 = (Employee) ois.readObject();
+			System.out.println(o4);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+
+	}
+}
+class Employee{
+	private String name;
+	private double salary;
+	public Employee() {
+	}
+	public Employee(String name, double salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "姓名："+"name"+"\t"+"薪水:"+salary;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package com.io.utils;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+/**
+ * ²âÊÔFileUtilsµÄ¶ÁÐ´
+ * @author Administrator
+ *
+ */
+public class CommonIO02 {
+	public static void main(String[] args) {
+		File dest = new File("IOtest.txt");
+		FileUtils.write(dest, "123");
+	}
+}

@@ -1,0 +1,12 @@
+package com.io.utils;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+public class CommonIO01 {
+	public static void main(String[] args) {
+		long s1 = FileUtils.sizeOf(new File("src/com/io/utils/CommonIO01.java"));
+		System.out.println(s1);
+	}
+}
