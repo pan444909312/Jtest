@@ -11,7 +11,7 @@ import org.apache.commons.io.filefilter.FileFilterUtils;
 
 public class CommonIO01 {
 	public static void main(String[] args) {
-		File d1 = new File("D:/JavaStudy/workspace2/CommonIO");
+		File d1 = new File("D:/GitProjectt/Jtest/workspace2/CommonIO");
 		//计算文件或文件夹的大小
 		long s1 = FileUtils.sizeOf(new File("src/com/io/utils/CommonIO01.java"));
 		System.out.println(s1);

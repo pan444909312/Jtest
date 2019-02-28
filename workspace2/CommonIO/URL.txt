@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width; maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-TGideas" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="腾讯游戏是腾讯四大网络平台之一，是全球领先的游戏开发和运营机构，也是国内最大的网络游戏社区。无论是腾讯公司整体的在线生活模式布局，还是腾讯游戏的产品布局，都是从用户的最基本需求、最简单应用入手，注重产品的可持续发展和长久生命力，打造绿色健康的精品游戏。在开放性的发展模式下，腾讯游戏采取内部自主研发和多元化的外部合作两者结合的方式，已经在网络游戏的多个细分市场领域形成专业化布局并取得良好的市场业绩。" />
+<meta name="Keywords" content="腾讯游戏,Tencent Games,腾讯游戏嘉年华,Tencent Games Carnival,腾讯游戏竞技平台,Tencent Games Arena,腾讯游戏公会,Tencent Games Guild,腾讯游戏爱心联盟,Tencent Games Social Responsibility,腾讯游戏公益,Tencent Games Social Responsibility,腾讯小游戏,腾讯网页游戏,腾讯QQ游戏,QQ小游戏,QQ网页游戏,QQ腾讯游戏,腾讯网游,腾讯网络游戏,腾讯大型网游,腾讯大型网络游戏,腾讯游戏平台,QQ游戏平台" />
+<title>腾讯游戏 - 用心创造快乐</title>
+<!-- 设计：pinnazhang | 重构：rukkihuang | 创建：2012.7.1 | 修改：2012.10.3 | 团队博客：//tgideas.qq.com -->
+<script>var d0 = new Date();var imgSendTimePoint;var s = new Array();function addTestPoint(iId){var curTime = new Date();s.push(iId+"="+(curTime-d0));}</script>
+<script type="text/javascript" src="//js.aq.qq.com/js/aq_common.js"></script><!--修复漏洞-->
+<style type="text/css">
+/* reset */
+*{margin:0;padding:0;}html{color:#000;overflow-x:auto!important;overflow-x:hidden;overflow-y:auto}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000;}del,ins{text-decoration:none}p{ margin:0; padding:0}img {-ms-interpolation-mode: bicubic;}
+a{ text-decoration:none}
+
+.clear { clear:both; height:0; line-height:0; font-size:0}
+.hidden,h1 {text-indent:-5000px; display:block; height:0; font-size:0; line-height:0; overflow:hidden}
+body { font-size:12px;  -webkit-text-size-adjust:none; font-family:微软雅黑,Tahoma,宋体; background:#FFF; min-width:1000px}
+.noWords { text-indent:-5000px; overflow:hidden; line-height:0; font-size:0}
+
+.iMailBox,.iNewsBox ul a,.iLogo,.iR,.jgpLogo,.nav a em,.newGame h2 em,a.a3,a.a4,a.a7,a.a8,a.a9,.newGameList span { background-image:url(//ossweb-img.qq.com/images/game/portal2012/sprites.jpg?d=20141111); background-repeat:no-repeat}
+.iNewNum { background-image:url(//ossweb-img.qq.com/images/game/portal2012/roll_btn.png); background-repeat:no-repeat}
+
+.topPart { background:#eaeaea; height:563px; clear:both; position:relative; z-index:1; overflow:hidden; margin-bottom:19px}
+.colorBelt { position:absolute; left:0; bottom:0; width:100%; height:216px; background:#5CA300 url(//ossweb-img.qq.com/images/game/portal2012/colorBelt1.jpg) no-repeat 50% 0}
+.header { width:1000px; position:relative; height:96px; margin:0 auto; overflow:hidden}
+.logo { position:absolute; width:300px; height:75px; left:-26px; top:0}
+
+.jgpLogo { width:241px; height:56px; background-position:-125px -171px; margin:2px 0 0 2px}
+.emtLogo { display:block; position:absolute; width:241px; height:56px; left:20px; top:25px; text-indent:-5000px}
+.bigLogo{width:310px; height:81px; left:20px; top:5px; background:url(//ossweb-img.qq.com/images/game/brand/game-logo.png) no-repeat;}
+.nav { height:23px; padding:47px 18px 0 0}
+.nav a,.bf1 { float:left}
+.nav li { float:right}
+.bf1 { display:block; width:13px; height:14px; margin-top:4px; background-position:-293px 0}
+.nav a { padding:4px; cursor:pointer; line-height:0; font-size:0; overflow:hidden}
+.nav a em { display:block; height:15px; text-indent:-5000px}
+a.n1 em { width:83px}
+a.n1:hover em { background-position:0 -15px}
+a.n2 em { width:84px; background-position:-83px 0}
+a.n2:hover em { background-position:-83px -15px}
+a.n3 em { width:69px; background-position:-167px 0}
+a.n3:hover em { background-position:-167px -15px}
+a.n4 em { width:57px; padding-right:0; background-position:-236px 0}
+a.n4:hover em { background-position:-236px -15px}
+a.n5 em { width:18px; height:19px; padding-right:0; background-position:-342px -80px; position:relative; top:-3px}
+a.n5:hover em { background-position:-342px -99px}
+
+/*登录*/
+.loginBox { background:#3f3e3e; height:36px}
+.logined { width:982px; padding-right:18px; margin:0 auto; position:relative; z-index:2}/*Mark*/
+.iR { float:right; background-position:-406px -87px}
+.loginOut,.igameNo { line-height:20px; padding:8px 0 0 12px; height:28px}
+.igameNo { padding-right:12px}
+.loginOut a,.igameNo a { color:#adadad; width:40px}
+.loginOut a:hover,.igameNo a:hover { color:#FFF; font-weight:bold}
+.iNum { padding:0 16px 0 17px; height:36px}
+.iNum a { display:block; float:left; font-weight:bold; color:#ff8900; line-height:36px}
+.iLogo { display:block; float:left; width:20px; height:20px; background-position:-372px -80px; margin:8px 2px 0 0}
+.igameNo .iLogo { margin-top:0}
+.iNewNews { height:36px; position:relative}
+.iMailBox { width:42px; height:36px; background-position:-258px -80px; margin:0 3px 0 4px; position:relative}
+a.iMail { display:block; width:42px; height:36px}
+.iNewNum { display:block; width:16px; height:14px; padding-top:2px; position:absolute; background-position:-42px 0; right:2px; top:6px; text-align:center; line-height:12px; *line-height:14px; color:#eaeaea; font-weight:bold; font-size:11px}
+.iNewsBox { position:absolute; top:36px; left:-99px; background:#FFF; width:264px; height:140px; *border:1px solid #c7c7c7; *border-top:none; box-shadow:2px 2px 2px rgba(0,0,0,0.3)}
+.ia1 { color:#545454; float:left; padding-left:20px; font-weight:bold; line-height:36px}
+.ia1 a { color:#545454}
+.ia1 a:hover { color:#111}
+.ia1 em { color:#ff6e00}
+a.ia2 { color:#ff6e00; float:right; padding-right:20px; font-weight:bold; line-height:36px}
+.iNewsBox ul { clear:both; vertical-align:top; border-top:1px solid #dadada; padding:4px 28px 0 18px; line-height:29px; color:#666666}
+.iNewsBox ul a { display:block; height:29px; width:100%; color:#666666; background-position:209px -208px}
+.iNewsBox ul a:hover { color:#212121; background-position:209px -178px}
+.iNewsBox em { color:#ff6e00; font-weight:bold; padding-left:3px}
+.unlogin { position:absolute; right:20px; top:5px; height:25px; color:#c4c4c4; line-height:25px}
+.unlogin a,.unlogin span { float:right; margin-left:15px}
+a.a5 { font-weight:bold; color:#8b8a8a}
+a.a6 { padding-left:30px; display:block; height:25px; background-position:-383px -26px; color:#8b8a8a}
+.unlogin a:hover { color:#ff7c00}
+.iUser { background:none; height:36px; position:relative}
+.sIcon { display:block; float:left; border:6px solid #3f3e3e; border-left-width:8px; border-right-width:8px; width:24px; height:24px; margin-right:5px; cursor:pointer}
+.iUserInfo { position:absolute; top:36px; left:-16px; background:#FFF; width:291px; height:179px; *border:1px solid #c7c7c7; *border-top:none; box-shadow:2px 2px 2px rgba(0,0,0,0.3)}
+.bIcon { display:block; float:left; width:100px; height:100px; margin:20px 17px 0 23px; _margin-left:11px}
+.iUserInfoList { float:left; width:148px; line-height:26px; padding-top:14px; color:#8c8b8b; height:128px}
+.iUserInfoList h4 { font-weight:bold; margin-bottom:5px; color:#666666; display:block}
+.iUserInfoList span { color:#60acdc}
+.iLinks { border-top:1px solid #ececec; background:#fcfcfc; line-height:18px; *line-height:20px; padding:8px 0 0 18px; height:28px; clear:both; overflow:auto; zoom:1}
+.iLinks li { float:left; padding-right:18px}
+.iLinks a { color:#666666}
+.iLinks a:hover { color:#252525}
+.iWelcome { float:left; color:#adadad; line-height:36px; padding-right:15px}
+.iWelcome span { padding-left:7px}
+.iWelcome a { color:#adadad}
+.iWelcome a:hover { text-decoration:underline}
+.iOn .sIcon { border-color:#FFF}
+.iOn2 .sIcon { border-color:#FFF}
+.iOn .iMailBox { background-position:-300px -80px}
+.iOn2 .iMailBox { background-position:-216px -80px}
+/*NewGmaes*/
+.part56 { width:962px; margin:0 auto; clear:both}
+.part6 { width:724px; float:right}
+.part5 { width:218px; float:left}
+.newGame { border:1px solid #cddaee; background:#FFF; margin-bottom:19px; position:relative}
+.newGame h2 { background:#f1f1f1; height:29px; padding-top:13px; padding-left:7%}
+.newGame h2 em { width:71px; height:15px; background-position:-223px -30px; display:block; text-indent:-5000; line-height:0; font-size:0}
+.newGameList { vertical-align:top}
+.newGameList li { border-top:1px solid #cddaee; padding-left:7%; overflow:auto; zoom:1; height:60px}
+.newGameList img { display:block; float:left; width:44px; height:40px; margin:10px 0 0 0}
+.newGameList h3,.newGameList p {height:20px; overflow:hidden; margin-left:55px}
+.newGameList h3 { margin-top:9px; color:#666; position:relative}
+.newGameList span { position:absolute; right:15px; height:11px; width:25px; background-position:-347px -137px; display:block; top:2px}
+.newGameList p { color:#5fa900}
+.newGameList a { color:#666}
+.newGameList a:hover { color:#383838}
+.mlogo { border:1px solid #cddaee; background:#f1f1f1; margin-bottom:19px; overflow:hidden}
+.mlogo a { display:block; width:216px}
+a.a3 { height:34px; background-position:0 -80px}
+a.a4 { height:57px; background-position:0 -114px}
+a.a7 { height:34px; background-position:-125px -227px}
+a.a8 { height:34px; background-position:-192px -328px}
+a.a9 { height:34px; background-position:-192px -360px}
+
+.newGBtns { position:absolute; left:-1px; bottom:-30px; width:100%; height:30px; line-height:30px; background:#eee; border:1px solid #CDDAEE; border-top:none; display:none}
+.newGBtns a { float:left; display:block; width:50%; height:30px; text-align:center; color:#555}
+
+/*foot*/
+#footer_ied { clear:both; width:962px; margin:0 auto; padding:33px 18px 10px 20px}/*Mark*/
+.wrap_ied{ border-top:1px solid #cddaee; padding-top:16px}
+#foot_info{ line-height:22px}
+#foot_info h2{ font-size:14px; font-weight:bold; line-height:24px}
+#foot_info table{}
+#foot_info table th{ font-weight:normal; text-align:right}
+#footer_ied{ text-align:center; font-size:12px; line-height:19px;color:#a4a4a4}
+#footer_ied p.e{ margin-top:-4px; font-size:10px}
+#footer_ied a { color:#a4a4a4}
+#footer_ied a:hover { color:#4c4c4c}
+
+/*自用*/
+.adBtn a { background-image:url(//ossweb-img.qq.com/images/game/portal2012/roll_btn.png)}
+.newsBox h2,em.hot,.newsList span,.h2 h2,a.more2,span.new,span.beta,span.hot,span.more,.gLinfo span,.imovie { background-image:url(//ossweb-img.qq.com/images/game/portal2012/sprites.jpg?v=20140408); background-repeat:no-repeat}
+.p23Box { clear:both; position:relative; zoom:1; overflow:hidden; margin-bottom:18px}
+.colorBelt { position:absolute; left:0; bottom:190px; width:100%}
+.part23 { margin:0 auto; width:962px; zoom:1; overflow:auto}
+/*广告*/
+.part2 { width:718px; float:left; overflow:hidden}
+.ggBox { width:718px; height:277px; background:#0e97dc}
+.ggBox { position:relative; overflow:hidden}
+.adPic { position:absolute; width:100%; height:100%; left:0; top:0}
+.adPic a { display:block; width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; background:#0e97dc}
+.adPic img { width:100%; height:100%; position:absolute; top:0; left:0}
+.adPic p { position:relative; padding-top:50px}
+.loadI { width:130px; text-align:center; line-height:20px; color:#FFF; background:#18b2ff; margin:0px auto; display:block}
+.adPicUl { width:1000%; height:100%; overflow:hidden; -webkit-transition: all 0.1s linear; -webkit-transform-style: preserve-3d;-webkit-backface-visibility: hidden}
+.adPicUl li { float:left; width:14.3%; height:100%}
+.adPicUl a { display:block; width:100%; height:100%; overflow:hidden}
+.adPicUl img { display:block; width:auto; height:100%}
+.adBtn { position:absolute; z-index:2; right:17px; bottom:20px; height:20px}
+.adBtn a { display:block; float:left; text-indent:-5000px;  margin-right:3px; overflow:hidden; width:19px; height:19px; background-repeat:no-repeat; background-position:0 1px;_background:#b1b1b1; _width:15px; _height:18px; _margin-right:5px}
+a.on { background-position:-19px 1px;_background:#efefef;_background:#efefef}
+.adBtn a:hover { background-position:-19px -18px; 	_background:#efefef}
+/*news*/
+.part3 { width:244px; float:left}
+.newsBox { width:100%; height:auto; background:#FFF; position:relative; padding-bottom:10px}
+.newsBox h2 { display:block; float:left; width:43px; height:24px; text-indent:-5000px; background-position:-306px 0; margin:12px 0 8px 26px; _margin-left:13px;}
+a.more3 { display:block; float:right; height:14px; line-height:14px; margin:22px 23px 0 0; color:#fe6408; font-weight:bold}
+a.more3:hover { color:#ff4200}
+.newsList { clear:both; border-top:1px solid #ccd5f1; margin:0 24px; padding-top:9px; vertical-align:top; height:139px; overflow:hidden}
+.newsList li { line-height:27px; clear:both; border-bottom:1px dotted #cccccc; height:27px; overflow:hidden}
+.newsList span { float:left; line-height:0; font-size:0; display:block; width:4px; height:4px; background-position:-293px -14px; margin:11px 7px 0 0}
+.newsList a { float:left; width:90%; display:block; overflow:hidden; height:27px; color:#646464}
+.newsList a:hover { color:#1d1d1d}
+.imovie { display:block; width:197px; height:66px; background-position:-197px -261px; margin:0 auto; text-indent:-5000px}
+a.sp { width:80%}
+em.hot { float:right; width:10px; height:11px; background-position:-293px -18px; margin-top:7px; text-indent:-5000px; line-height:0; font-size:0; overflow:hidden}
+/*五大子品牌*/
+.fBtns li,.fBtns span { background-image:url(//ossweb-img.qq.com/images/game/portal2012/roll_btn.png); background-repeat:no-repeat}
+/*默认*/
+.part4 { width:960px; height:170px; margin:0 auto; clear:both; overflow:hidden; position:relative; border:1px solid #ccd5f1}
+.fiveBox { width:200%; height:100%; overflow:hidden; position:absolute; right:0; top:0}
+.fBtns { float:right; width:11%; background:#f4f4f4; height:100%; vertical-align:top}
+.fPics { float:right; width:39%; background:#f3f9f8; height:100%; position:relative}
+.fBtns li { height:20%; margin-right:1px; position:relative}
+li.rI1 { background-position:36px -40px}
+li.rI2 { background-position:36px -83px}
+li.rI3 { background-position:36px -127px}
+li.rI4 { background-position:36px -167px}
+li.rI5 { background-position:36px -208px}
+.fBtns span { display:block; position:absolute; overflow:hidden; font-size:0; line-height:0; left:0; bottom:0; width:3px; height:100%; z-index:1}
+span.rIcon1 { background-color:#ff4e00; background-position:-99px -40px}
+span.rIcon2 { background-color:#ffc502; background-position:-99px -83px}
+span.rIcon3 { background-color:#4c8502; background-position:-99px -127px}
+span.rIcon4 { background-color:#009cff; background-position:-99px -167px}
+span.rIcon5 { background-color:#a19fea; background-position:-99px -208px}
+.fBtns a { display:block; width:100%; height:100%; position:relative; z-index:2}
+.fPics a { display:block; width:100%; height:100%; overflow:hidden; position:absolute; right:0; top:0; z-index:1}
+.fPics img { display:block; height:100%; width:auto; position:absolute; right:0; top:0; z-index:2}
+span.loadI2 { position:relative; z-index:1; width:130px; margin:0 auto; top:75px; background:#F4F4F4; border:#e0e0e0 1px solid; line-height:20px; display:block; text-align:center; font-weight:bold; color:#999}
+/*相应式设计的css用js来控制 .part4a*/
+.part4a { height:205px}/*Media里不设宽度，控制part4宽度即可*/
+.part4a .fPics { height:170px}
+.part4a .fiveBox { width:100%}
+.part4a .fBtns { float:none; width:200%}
+.part4a li { height:35px; width:10%; float:left; margin-right:0}
+.part4a .fPics { float:none; width:100%}
+.part4a span { height:3px; width:100%}
+.part4a li.rI1 { background-position:20px -40px}
+.part4a li.rI2 { background-position:15px -83px}
+.part4a li.rI3 { background-position:5px -127px}
+.part4a li.rI4 { background-position:5px -167px}
+.part4a li.rI5 { background-position:15px -208px}
+.part4a span.rIcon1 { background-position:-115px -40px}
+.part4a span.rIcon2 { background-position:-120px -83px}
+.part4a span.rIcon3 { background-position:-130px -127px}
+.part4a span.rIcon4 { background-position:-130px -167px}
+.part4a span.rIcon5 { background-position:-120px -208px}
+/*gameList*/
+.gameBox { border-left:1px solid #cddaee; border-top:1px solid #cddaee; border-bottom:1px solid #cddaee; background:#f7f7f7}
+.h2 { border-right:1px solid #cddaee; border-bottom:1px solid #cddaee; overflow:auto; zoom:1; background:#f0f0f0; height:42px; padding:0 20px 0 21px}
+.h2 h2 { display:block; width:57px; height:15px; background-position:0 -30px; text-indent:-5000px; margin-top:13px; float:left; line-height:0; font-size:0; overflow:hidden}
+a.more2 { float:right; display:block; width:83px; height:22px; background-position:-57px -30px; text-indent:-5000px; margin-top:10px}
+a.more2:hover { background-position:-140px -30px}
+.gameList { overflow:hidden; zoom:1; position:relative; *height:398px}
+.gameList div { float:left; width:120px}
+.gameList ul { border-right:1px solid #cddaee; border-bottom:1px solid #cddaee; height:401px;/*height:346px;*/ padding-top:7px; vertical-align:top}
+.gameList h3 { border-bottom:1px solid #cddaee; padding-left:17%; _padding-left:19px; font-weight:bold; color:#0e97dc; line-height:43px}
+.gameList li { line-height:30px; height:30px; overflow:hidden; position:relative}
+.gameList a { color:#666666; display:block; padding-left:17%}
+.gameList a:hover { color:#2c2c2c}
+.gameList div.bf2 { position:absolute; height:353px; width:1px; font-size:0; line-height:0; overflow:hidden; top:43px; border-left:1px solid #cddaee}
+div.bf2 { left:16.6%}
+.gameList span { display:block; position:absolute; width:10px; height:11px; right:12px; top:10px; overflow:hidden; line-height:0; font-size:0}
+span.new { background-position:-96px -60px}
+span.beta { background-position:-396px -60px}
+span.hot { background-position:-203px -60px}
+span.more { background-position:-312px -60px; left:53px; top:9px}
+div.mmorpg { width:123px}
+/*.mmorpg h3 { padding-left:8.5%; _padding-left:19px;}*/
+.mmorpg ul { overflow:auto; zoom:1}
+/*.mmorpg li { float:left; width:50%}*/
+/*.mmorpg a { _padding-left:19px}*/
+.mobilegame h3 { border-right:1px solid #cddaee}
+.gLinfo {  clear:both; border-right:1px solid #cddaee; padding:6px 0 7px 0; background:#f7f7f7; overflow:auto; zoom:1; }
+.gLinfo p { float:right; line-height:20px; margin-right:20px; _margin-right:10px; color:#666666; margin-left:9px}
+.gLinfo span { display:block; width:10px; height:11px; overflow:hidden; line-height:0; font-size:0; float:right; margin-top:5px}
+/*QR*/
+#QRbox{position:fixed;_position:absolute;left:50%;top:225px;margin-left:-700px; width: 200px; height: 281px; z-index: 100;}
+#QRbox-close{position: relative; top: 37px; left: 172px; display: block; width: 28px; height: 25px; cursor: pointer;}
+</style>
+<!--[if !IE]><!-->
+<style type="text/css">
+@media screen and (max-width: 1024px)
+{
+body { min-width:100%; background:#ebebeb}
+.logined { width:auto}
+.header { width:auto}
+.emtLogo { left:5px}
+#footer_ied { width:100%; padding:33px 0 10px 0}
+}
+@media screen and (max-width: 973px)
+{
+.part56 {width:100%}
+.part5 { width:22.7%}
+.part6 { width:75%}
+}
+@media screen and (max-width: 731px)
+{
+.newGameList span { display:none}
+}
+/*修正logo*/
+@media screen and (max-width: 669px)
+{
+.logo { top:-15px; left:-30px}
+.emtLogo { top:9px}
+.jgpLogo { margin-top:0px}
+.nav { position:relative; top:75px; padding-top:32px; padding-right:0; width:100%; border-top:1px solid #7b7b7b}
+.nav li { border-right:1px solid #919191; height:17px; overflow:hidden}
+li.nL3 { width:27.5%}
+li.nL2 { width:23%}
+li.nL1 { width:21%; border-right:none}
+a.n5,.bf1  { display:none}
+.nav a { float:none; padding-left:0; padding-right:0}
+.nav em { margin:0 auto}
+.header { height:157px}
+}
+@media screen and (max-width: 640px)
+{
+.part5,.part6 { width:100%; float:none; overflow:hidden}
+.part6 { border-left:none; border-right:none}
+.newGameList { width:110%; overflow:auto; zoom:1}
+.newGameList li { width:41.5%; padding-left:4%; float:left; border-right:1px solid #CDDAEE}
+.newGameList span { display:block}
+/*手机*/
+
+}
+@media screen and (max-width: 480px)
+{
+.iWelcome { display:none}
+.iUserInfo { left:-70px}
+}
+@media screen and (max-width: 320px)
+{
+body { width:320px}
+}
+/*移动端*/
+@media screen and (max-device-width:480px)
+{
+body { font-size:14px}
+/*图片字体修正*/
+.nav li { text-align:center}
+.nav a { padding:0; float:none}
+.nav a em { text-indent:0; line-height:15px; font-size:15px; background:none; font-weight:bold; color:#444547; display:inline}
+.mlogo { border-color:#c3c3c3; border-right:none; border-left:none}
+.newGame { background:none; border:none; border-bottom:1px solid #c3c3c3}
+.newGame h2 { background:none; padding-left:5%}
+.newGameList li { border-color:#c3c3c3; background:#dfdfdf}
+.wrap_ied {  border-color:#c3c3c3}
+}
+@media screen and (max-device-width:480px)and (orientation:landscape) 
+{
+}
+@media screen and (max-device-width:480px)and (orientation:portrait) 
+{
+.nav a em { font-size:14px; letter-spacing:-1px}
+.newGameList span { display:none}
+}
+
+@media screen and (max-width: 1024px)
+{
+.topPart { height:auto}
+.ggBox { width:100%; height:auto}
+.part2 {width:74.6%;}
+.part3 {width:25.3%}
+.gameList div { width:16.7%}
+div.mmorpg { width:16.5%}
+}
+/*修正960宽的闪动*/
+@media screen and (max-width: 973px)
+{
+.part23 {width:100%}
+.part4 { width:100%; border-left:none; border-right:none}
+.imovie { display:none}
+.newsList { overflow:auto; height:auto}
+}
+/*修正新闻和广告*/
+@media screen and (max-width: 854px)
+{
+.newsList { height:168px; overflow:hidden}
+}
+/*修正广告尺寸（暂定）*/
+@media screen and (max-width: 731px)
+{
+.part2 {width:100%; margin-bottom:18px}
+.part3 {width:100%}
+.adBtn { bottom:10px}
+.colorBelt { display:none}
+.newsList { width:94%; margin:0 auto}	
+.gameList span { display:none}
+}
+@media screen and (max-width: 640px)
+{
+.gameList span { display:block}
+}
+@media screen and (max-width: 550px)
+{
+.gameList span { display:none}
+}
+
+@media screen and (max-width: 480px)
+{
+.gameList span { display:block}	
+.gameList div { width:33.3%}
+div.bf2 { left:33.3%}
+.esportgame h3 { border-right:1px solid #cddaee}
+
+/*手机*/
+
+}
+@media screen and (max-width: 320px)
+{
+.gameList div { width:50%}
+div.bf2 { left:50%}
+.actgame h3 { border-right:1px solid #cddaee}
+.acgplat h3 { border-right:1px solid #cddaee}
+.esportgame h3 { border-right:none}
+.gameList { overflow:hidden}
+}
+/*移动端 通用*/
+@media screen and (max-device-width:480px)
+{
+.part4 { border-color:#c3c3c3}
+.newsBox h2 { background:#0e97dc; text-indent:0; font-size:20px; line-height:24px; color:#FFF; text-align:center; margin-left:10px}
+.newGame h2 { padding-left:5%}
+.newGame h2 em,.h2 h2 { text-indent:0; line-height:15px; font-size:15px; font-weight:bold; color:#3e3e3e; background:none; letter-spacing:-1px; width:80px}
+a.more3 { margin-right:10px}
+.gameBox { border:none; background:#ebebeb}
+.h2 { background:#ebebeb; padding:0 10px; border:none}
+.gameList h3 { border-color:#c3c3c3; color:#1c90c9}
+.actgame h3,.mobilegame h3 { border-right:none}
+.gameList div { float:none; border-right:none; border-top:1px solid #c3c3c3; background:#dfdfdf}
+.gameList ul { height:auto; width:102%}
+.bf2 { display:none}
+.gameList div { width:100%; clear:both; overflow:hidden; margin-bottom:44px}
+.gameList ul { overflow:hidden; zoom:1; border-color:#c3c3c3; border-right:none; padding-top:0}
+.gameList li { line-height:44px; height:44px; border-right:1px solid #c3c3c3; border-bottom:1px solid #c3c3c3; float:left}
+.gameList span { top:16px}
+span.more { background:none; text-indent:0; line-height:20px; height:20px; font-size:20px; top:10px; left:58px; color:#1c90c9}
+.gLinfo { padding:17px 0; border:none; background:#ebebeb}
+.gameList li { width:49.5%}
+.gameList ul { border-bottom:none}
+div.mobilegame { margin-bottom:0}
+.gameList a:hover { background:#ebebeb}
+
+}
+/*横*/
+@media screen and (max-device-width:480px)and (orientation:landscape) 
+{
+.part2 {width:65%; margin-bottom:0}
+.part3 {width:34.8%}
+.adPicUl img {}
+.newsBox { padding-bottom:11px}
+.newsList { height:112px; overflow:hidden; width:90%}
+.gameList ul { border-bottom:1px solid #c3c3c3}
+.gameList li { width:33%}
+ul.mmorpg { height:314px}
+ul.actgame,ul.webgame,ul.mobilegame { height:179px}
+ul.acgplat { height:134px}
+.h2 { padding-left:5.8%}
+.gameList h3 { padding-left:5.8%}
+.gameList span { right:20px}
+span.more { left:70px}
+}
+/*竖*/
+@media screen and (max-device-width:480px)and (orientation:portrait) 
+{
+.newsBox	 { background:none}
+.newsList { width:100%; border-top-color:#c3c3c3; padding-top:0; height:auto}
+.newsList li { padding:0 10px; border-bottom:1px solid #c3c3c3; background:#dfdfdf; line-height:44px; height:44px}
+.newsList a { line-height:44px; height:44px}
+.newsList span { margin-top:20px}
+.h2 { padding-left:8.5%}
+.gameList h3 { padding-left:8.5%}
+}
+</style>
+<!--<![endif]-->
+</head>
+<body>
+<div class="loginBox" id="loginBox" style="height:0; overflow:hidden"><!-- height:0; overflow:hidden --><!-- height:36px -->
+	<div class="logined" id="logined" style="z-index:1; display:none" >
+        <!-- 退出 -->
+        <div class="iR loginOut">
+            <a href="javascript:LoginManager.logout();iG.showClose()" onclick="pgvSendClick({hottag:'index.btns.logout'});" title="退出">退出</a>
+        </div>
+        <!-- 未开通 -->
+        <div class="iR igameNo" id="igameNo" style="display:none"><span class="iLogo"></span><a href="//igame.qq.com/active/activation.shtml?from=offical" target="_blank" onclick="pgvSendClick({hottag:'index.link.igameNo'});">点击此处开通您的游戏人生</a></div>
+        <!-- 点数 -->
+        <div class="iR iNum" id="iNum">
+        	<span class="iLogo"></span>
+            <a id="honor"  href="//igame.qq.com/center2/honor/index.php" target="_blank" onclick="pgvSendClick({hottag:'index.link.honor'});" title="查看我的荣誉"></a>
+        </div>
+        <!-- 新消息 -->
+        <div class="iR iNewNews" id="iNewNews">
+        	<p class="iMailBox"><a id="iMail" href="javascript:void(0)" class="iMail" title="消息中心"><span class="iNewNum" id="msgNum" style="display:none"></span></a></p><!-- iNewNum -->
+            <!-- 下拉 -->
+            <div class="iNewsBox" style="display:none">
+            	<p class="ia1">消息中心</p><a class="ia2" href="//igame.qq.com/?from=offical" onclick="pgvSendClick({hottag:'index.link.igame'});" target="_blank" title="游戏人生">游戏人生 &raquo;</a>
+                <ul>
+                	<li><a id="begs1" href="//igame.qq.com/center/notice.php?op=0" target="_blank"  onclick="pgvSendClick({hottag:'index.link.igameBegs1'});"><span>站内信</span><em id="mailNum"></em></a></li>
+                	<li><a id="begs2" href="//igame.qq.com/center/relation.php?type=1" target="_blank"  onclick="pgvSendClick({hottag:'index.link.igameBegs2'});"><span>听众提醒</span><em id="followNum"></em></a></li>
+                	<li><a id="begs3" href="//igame.qq.com/center/notice.php?op=2" target="_blank"  onclick="pgvSendClick({hottag:'index.link.igameBegs3'});"><span>系统通知</span><em id="noticeNum"></em></a></li>
+                </ul>
+            </div>
+        </div>
+    	<!-- 个人信息 -->
+        <div class="iR iUser" id="iUser">
+			<a href="javascript:void(0)" title="我的游戏人生"><img class="sIcon" id="sIcon" /></a>
+            <p class="iWelcome">欢迎您<a href="//igame.qq.com/center/index.shtml?from=offical#news" onclick="pgvSendClick({hottag:'index.link.igameMy2'});" target="_blank" title="我的游戏人生"><span id='login_nickname_span'></span></a></p>
+            <!--个人信息详情 -->
+            <div class="iUserInfo" style="display:none">
+            	<img class="bIcon" id="bIcon" />
+                <ul class="iUserInfoList">
+                	<li><h4 id="login_nickname_span2"></h4></li>
+                    <li>总荣誉点: <span id="honor2">载入中......</span></li>
+                    <li>世界排名: <a href="//igame.qq.com/top/top.shtml?from=offical" target="_blank"  onclick="pgvSendClick({hottag:'index.link.iRank'});" title="查看我的世界排名"><span id="world_rank">载入中……</span></a></li>
+                    <li><em id="city">城市排名</em>:  <span id="city_rank">载入中……</span></li>
+                </ul>
+                <ul class="iLinks">
+                	<li><a href="//pay.qq.com/paygame/?ADTAG=media.innerenter.gamecom.navigation" onclick="pgvSendClick({hottag:'index.link.pay'});" target="_blank" title="充值">充值</a></li>
+                	<li><a href="//gamesafe.qq.com/?ADTAG=media.innerenter.gamecom.navigation" onclick="pgvSendClick({hottag:'index.link.gamesafe'});" target="_blank" title="安全">安全</a></li>
+                	<li><a href="//kf.qq.com/self/self_game.shtml?ADTAG=media.innerenter.gamecom.navigation" onclick="pgvSendClick({hottag:'index.link.kf'});" target="_blank" title="客服">客服</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+</div>
+<!-- 导航+轮播+五大子品牌 -->
+<div class="topPart">
+	<div class="colorBelt"></div>
+    <div class="header">
+    	<div class="logo"><div id="logo"></div></div>
+        <a href="//game.qq.com/" title="腾讯游戏" class="emtLogo" id="emtLogo">腾讯游戏</a>
+        <div class="unlogin"  id="unlogin">
+        	<a class="a5" href="javascript:LoginManager.login()" onclick="pgvSendClick({hottag:'index.btns.login'});" title="用户登录">登录</a>
+            <span>|</span>
+        	<a class="a6" href="//igame.qq.com/?from=offical" target="_blank" title="游戏人生" onclick="pgvSendClick({hottag:'index.link.igame2'});">游戏人生</a>
+        </div>
+        <div class="nav">
+        	<ul>
+        		<li class="nL1"><a class="n4" href="//vip.yixun.com/zhoubian/?ADTAG=media.innerenter.gamecom.navigation" target="_blank" title="周边商城" onclick="pgvSendClick({hottag:'index.link.shop'});"><em>周边商城</em></a></li>
+        		        		<li class="nL3"><a class="n1" href="//game.qq.com/brand/?ADTAG=media.innerenter.gamecom.navigation" target="_blank" title="腾讯游戏介绍" onclick="pgvSendClick({hottag:'index.link.tginfo'});"><em>腾讯游戏介绍</em></a><a class="n5 noWords" href="//e.t.qq.com/tencentgames" target="_blank" title="腾讯游戏微博" onclick="pgvSendClick({hottag:'index.link.tgWB'});"><em>腾讯游戏微博</em></a><span class="bf1 noWords">|</span></li>
+            </ul>
+        </div>
+</div>
+
+    <!-- 广告 新闻 -->
+    <div class="p23Box">
+        <div class="part23">
+            <div class="part2"><div class="ggBox" id="ggBox"></div></div>
+            <div class="part3">
+                <div class="newsBox">
+                    <h2>新闻</h2>
+                    <a class="more3" href="/webplat/info/news_version3/128/3294/3321/m2615/list_1.shtml" target="_blank" title="查看更多" onclick="pgvSendClick({hottag:'index.news.more'});">查看更多 &gt;</a>
+                    <ul class="newsList" id="newsList">新闻资料载入中……</ul>
+                    <a class="imovie" target="_blank" href="//ieg.tencent.com" title=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 五大子品牌 -->
+    <div class="part4" id="part4">
+        <div class="fiveBox" id="fiveBox">
+            <div class="fPics" id="fPics"></div>
+            <ul class="fBtns" id="fBtns"></ul>
+        </div>
+    </div>
+    <!-- end -->
+</div>
+<div class="part56">
+	<!-- newGameList -->
+	<div class="part5">
+	<div class="newGame" id="newGameBox">
+            <h2><em>新品测试表</em></h2>
+            <ul class="newGameList" id="newGameList"></ul>
+			<div class="newGBtns" id="newGBtns"><a href="javascript:void(0)" style="color:#999">上一组</a><a href="javascript:void(0)">下一组</a></div>
+	</div>
+    <div class="mlogo"><a class="a9 noWords" title="成长守护平台" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gameguanwang" target="_blank" onclick="pgvSendClick({hottag:'index.link.gameguanwang'});">成长守护平台</a></div>
+	<div class="mlogo"><a class="a7 noWords" title="心悦俱乐部" href="//xinyue.qq.com/index.shtml?ADTAG=media.innerenter.gamecom.navigation" target="_blank" onclick="pgvSendClick({hottag:'index.link.xinyue'});">腾讯游戏心悦俱乐部</a></div>
+	<div class="mlogo"><a class="a8 noWords" title="腾讯游戏帮帮" href="//bang.qq.com/?ADTAG=media.innerenter.gamecom.navigation" target="_blank" onclick="pgvSendClick({hottag:'index.link.bangbang'});">腾讯游戏帮帮</a></div>
+	<div class="mlogo"><a class="a3 noWords" title="蓝钻贵族" href="//gamevip.qq.com/index.shtml?ADTAG=media.innerenter.gamecom.navigation" target="_blank" onclick="pgvSendClick({hottag:'index.link.qqgame'});">蓝钻贵族</a></div>
+	<div class="mlogo"><a class="a4 noWords" title="2012腾讯大记事" href="//game.qq.com/brand/event.htm?ADTAG=media.innerenter.gamecom.navigation" target="_blank" onclick="pgvSendClick({hottag:'index.link.2012event'});">2012腾讯大记事</a></div>
+</div>
+<script>
+</script>
+
+	<!-- GameList -->
+    <div class="part6">
+        <div class="gameBox">
+            <div class="h2">
+                <h2>游戏列表</h2>
+                <a href="//igame.qq.com/center/gift.php?ADTAG=media.innerenter.gamecom.navigation" class="more2" title="礼包中心" onclick="pgvSendClick({hottag:'index.link.prize'});" target="_blank">礼包中心</a>
+            </div>
+            <div class="gameList" id="gameList"></div>
+            <div class="gLinfo"><p>热门游戏</p><span class="hot"></span><p>测试游戏</p><span class="beta"></span><p>最新游戏</p><span class="new"></span></div>
+        </div>
+    </div>
+	<!-- GameList end-->
+</div>
+<div id="QRbox" style="display:none"><span id="QRbox-close"></span></div>
+<script type="text/javascript" src="//ossweb-img.qq.com/images/js/foot.js"></script>
+<script src='//ossweb-img.qq.com/images/js/milo/milo.js'></script>
+<script>
+//isd
+function attach(d,a,c,b){if(d.addEventListener){d.addEventListener(a,c,b)}else{if(d.attachEvent){d.attachEvent("on"+a,c)}}}
+function do_speed_report(){
+	addTestPoint(1);
+	var url = "//isdspeed.qq.com/cgi-bin/r.cgi?flag1=7718&flag2=54&flag3=1&"+s.join("&");
+	if(Math.random() < 0.1){
+		imgSendTimePoint=new Image();
+		imgSendTimePoint.src=url;
+	}
+}
+attach(window,'load',function(){do_speed_report();});
+function handle(func){setTimeout(function(){var f=func.shift();f[0](f[1],f[2],f[3]);if(func.length>0){setTimeout(arguments.callee,300);};},200);};
+function pings(){if(typeof(pgvMain)=="function"){pgvMain();};}
+function delay_js(url){var type=url.split("."),file=type[type.length-1];if(file=="css"){var obj=document.createElement("link"),lnk="href",tp="text/css";obj.setAttribute("rel","stylesheet");}else var obj=document.createElement("script"),lnk="src",tp="text/javascript";obj.setAttribute(lnk,url);obj.setAttribute("type",tp);file=="css"?document.getElementsByTagName("head")[0].appendChild(obj):document.body.appendChild(obj);return obj;};
+function addload(func){var old=window.onload;if(typeof window.onload!="function"){window.onload=func;}else{window.onload=function(){old();func();}}};
+function loadjs(url,succ,v){var elem=delay_js(url);if((navigator.userAgent.indexOf('MSIE')==-1)?false:true){elem.onreadystatechange=function(){if(this.readyState&&this.readyState=="loading") return;else succ(v);};}else elem.onload=function(){succ(v);};elem.onerror=function(){};}
+var get$=function(e){ return document.getElementById(e)}
+function addsize(func){var old=window.onresize;if(typeof window.onresize!="function"){window.onresize=func;}else{window.onresize=function(){old();func();}}};
+//login
+var iG=new Object();
+iG.loginBox=get$('loginBox');
+iG.logined=get$('logined');
+iG.iNewNews=get$('iNewNews');
+iG.iUser=get$('iUser');
+iG.detailBox=[];
+iG.detailBox.push(iG.iUser.getElementsByTagName('div')[0]);iG.detailBox.push(iG.iNewNews.getElementsByTagName('div')[0]);
+iG.showUp=function()
+{
+(function(){
+iG.loginBox.style.height=iG.loginBox.offsetHeight+4+'px';
+if(iG.loginBox.offsetHeight>=36)
+{
+iG.loginBox.style.cssText='height:36px';
+iG.logined.style.zIndex='2';
+}
+else setTimeout(arguments.callee,10)
+})()
+}
+iG.showClose=function()
+{
+this.loginBox.style.overflow='hidden';
+this.logined.style.zIndex='1';
+(function(){
+iG.loginBox.style.height=iG.loginBox.offsetHeight-4+'px';
+if(iG.loginBox.offsetHeight<=0)
+{
+iG.loginBox.style.height='0';
+}
+else setTimeout(arguments.callee,10)
+})()
+}
+//鼠标经过
+iG.over=function(e)
+{
+if(navigator.userAgent.toLowerCase().indexOf("ipad")<0&&navigator.userAgent.toLowerCase().indexOf("iphone")<0&&navigator.userAgent.toLowerCase().indexOf("android")<0)
+{
+//鼠标经过触发
+e.onmouseover=function()
+{
+showFn(e)
+}
+e.onmouseout=function()
+{
+this.className=this.className.replace(new RegExp("\\b"+"iOn2"+"\\b\\s*","g"),"");
+this.getElementsByTagName('div')[0].style.display='none';
+}
+}
+else
+{
+e.onclick=function()
+{
+if(this.getElementsByTagName('div')[0].style.display=='block')
+{
+this.className=this.className.replace(new RegExp("\\b"+"iOn2"+"\\b\\s*","g"),"");
+this.getElementsByTagName('div')[0].style.display='none';
+}
+else
+{
+iG.iNewNews.className=this.className.replace(new RegExp("\\b"+"iOn2"+"\\b\\s*","g"),"");
+iG.iNewNews.getElementsByTagName('div')[0].style.display='none';
+iG.iUser.className=this.className.replace(new RegExp("\\b"+"iOn2"+"\\b\\s*","g"),"");
+iG.iUser.getElementsByTagName('div')[0].style.display='none';
+showFn(this);
+}
+}
+}
+var showFn=function(e)
+{
+e.className+=' iOn2';
+try{if(OfficialWeb_Base_Info['r']!=0) return;
+if(e.getElementsByTagName('div')[0].style.display=='block') return;
+else
+{
+e.getElementsByTagName('div')[0].style.display='block';
+//拉头像
+if(e.id=='iUser')
+{
+if(!get$('bIcon').getAttribute('src'))
+{
+//城市
+loadjs('//igame.qq.com/js/city.js',function(){
+get$('city').innerHTML=areaData[OfficialWeb_Base_Info['city_id']]+'排名';
+},'')
+get$('bIcon').src=OfficialWeb_Base_Info['headImg100'];
+iG.showRank(OfficialWeb_Base_Info['world_rank'],'world_rank')
+iG.showRank(OfficialWeb_Base_Info['city_rank'],'city_rank')
+}
+}
+//拉消息
+else
+{
+loadjs('//user1.game.qq.com/cgi-bin/v1.0/extern/cgi_officialweb_igame.cgi?type=1&rd='+Math.random(),function(){
+if(typeof(OfficialWeb_News_Info)=="undefined") alert('矮油，你还没登录呦!');
+else if(OfficialWeb_News_Info['r']!=0) alert('系统忙，数据拉取失败啦...');
+else
+{
+if(OfficialWeb_News_Info['sitenum']-0>0) get$('mailNum').innerHTML='('+OfficialWeb_News_Info['sitenum']+')';
+if(OfficialWeb_News_Info['relnum']-0>0) get$('followNum').innerHTML='('+OfficialWeb_News_Info['relnum']+')';
+if(OfficialWeb_News_Info['sysnum']-0>0) get$('noticeNum').innerHTML='('+OfficialWeb_News_Info['sysnum']+')';
+if(OfficialWeb_News_Info['msgNum']-0>0) {get$('msgNum').style.display='block';get$('msgNum').innerHTML=OfficialWeb_News_Info['msgNum'];}
+else {get$('msgNum').style.display='none'}
+}
+},'')
+}
+}
+}catch(e){};
+}
+}
+iG.over(iG.iNewNews);iG.over(iG.iUser);
+iG.showRank=function(n,id)
+{
+n=n.toString();
+if(n.indexOf('%')>0) get$(id).innerHTML='前'+n;
+else  get$(id).innerHTML='第'+n+'名';
+}
+//登录20180115 ~~///////////////////////////////////////////////////////////~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+need("biz.login",function(LoginManager){
+
+//执行验证登陆操作
+LoginManager.checkLogin(function(){
+LoginManager.getNickName(function(loginInfo){
+if(loginInfo.isLogin){
+g("login_nickname_span").innerHTML = loginInfo.nickName;
+g("login_nickname_span2").innerHTML = loginInfo.nickName;
+}
+});
+iG.showUp();
+try{
+loadjs('//user1.game.qq.com/cgi-bin/v1.0/extern/cgi_officialweb_igame.cgi?type=0&rd='+Math.random(),function(){
+if(OfficialWeb_Base_Info['r']==0)//开通了游戏人生
+{
+get$('honor').innerHTML=OfficialWeb_Base_Info['honor'];//荣誉点
+get$('honor2').innerHTML=OfficialWeb_Base_Info['honor'];//下拉框的荣誉点
+if(OfficialWeb_Base_Info['msgNum']>0){get$('msgNum').style.display='block';get$('msgNum').innerHTML=OfficialWeb_Base_Info['msgNum'];}//顶部的消息数
+get$('sIcon').src=OfficialWeb_Base_Info['headImg30'];//小头像
+}
+else //未开通游戏人生&数据拉取失败
+{
+get$('igameNo').style.display="block";
+get$('iNum').style.display="none";
+get$('iNewNews').style.display="none";
+get$('sIcon').style.display="none";
+if(OfficialWeb_Base_Info['r']!=-2)//数据拉取失败，替换链接&提示
+{
+var il=get$('igameNo').getElementsByTagName('a')[0];
+il.innerHTML=OfficialWeb_Base_Info['errmsg'];
+il.href="//igame.qq.com";
+}
+}
+},'')
+}catch(e){}
+}, function(){
+//登录失败回调方法
+//LoginManager.login();
+});
+});
+
+
+
+function fillBeta()
+{
+var ng=
+{
+box:document.getElementById('newGameBox')
+,btnbox:document.getElementById('newGBtns')
+,btns:document.getElementById('newGBtns').getElementsByTagName('a')
+,newGameList:document.getElementById('newGameList')
+,now:0
+,innerBeta:function(){}
+}
+ng.box.onmouseover=function(){ng.btnbox.style.display="block"}
+ng.box.onmouseout=function(){ng.btnbox.style.display="none"}
+ng.btns[0].onclick=function(){ng.now=0;ng.btns[1].style.color="#555"; this.style.color="#999";ng.innerBeta(ng.now)}
+ng.btns[1].onclick=function(){ng.now=1;ng.btns[0].style.color="#555"; this.style.color="#999";ng.innerBeta(ng.now)}
+//	ng.btns[0].onclick=function(){ng.now--;if(ng.now<0) {ng.now=0;}ng.innerBeta(ng.now)}
+//	ng.btns[1].onclick=function(){ng.now++;if(ng.now>1) {ng.now=1;};ng.innerBeta(ng.now)}
+ng.innerBeta=function(n)
+{
+var betaStr="",sta=n*4,en=(n+1)*4;
+for(var i=sta;i<en;i++)
+{//sTitleIcon
+betaStr+='<li><a href="'+decodeURIComponent(newsIndexData[i]['sRedirectAddress'])+'" class="a1" target="_blank" onclick="pgvSendClick({hottag:\'index.newGame.gameImg'+(i+1)+'\'});"><img src="'+(decodeURIComponent(newsIndexData[i]['sInfoImageAddr'])).replace("http://","//")+'" /></a><h3><a href="'+decodeURIComponent(newsIndexData[i]['sRedirectAddress'])+'"  target="_blank" onclick="pgvSendClick({hottag:\'index.newGame.game'+(i+1)+'\'});">'+decodeURIComponent(newsIndexData[i]['sTitle'])+'</a>';
+	newsIndexData[i]['sTitleIcon']==1?(betaStr+='<span></span>'):'';
+	betaStr+='</h3><p>'+decodeURIComponent(newsIndexData[i]['sSubContent'])+'</p></li>';
+}
+ng.newGameList.innerHTML=betaStr;
+}
+ng.innerBeta(0);
+}
+//flash
+var flashvars = {};
+var params = {
+menu: "true",
+salign: "T",
+scale:"noscale",
+wmode: "transparent",
+allowScriptAccess: "always",
+align: "middle",
+base: ""
+};
+var logo = {
+id: "logo",
+name: "logo"
+};
+//logo处理，ipadiphonejpglogo
+function showLogo()
+{
+if(navigator.userAgent.toLowerCase().indexOf("ipad")<0&&navigator.userAgent.toLowerCase().indexOf("iphone")<0&&navigator.userAgent.toLowerCase().indexOf("android")<0)
+{
+document.getElementById('emtLogo').className+=' bigLogo'	}
+else document.getElementById('emtLogo').className+=' jgpLogo'
+}
+//插入广告
+function addGGs()
+{
+	var rollGG=new tgAds
+	({
+		ggID:'461'
+		,info:'201206'
+		,box:'ggBox'
+		,pgv:'index.adsRolling.ad'
+		,bl:2.59
+	})
+}
+//新闻
+function fillNews()
+{
+	var newsStr='';
+	for(var i=0;i<7;i++)
+	{
+		newsStr+='<li><span>&rsaquo;</span><a'+(newsIndexData[i]['sTitleIcon']==1?' class="sp"':'')+' href="'+decodeURIComponent(newsIndexData[i]['infoPath'])+'" title="'+decodeURIComponent(newsIndexData[i]['sTitle'])+'"  onclick="pgvSendClick({hottag:\'index.ads.ad'+(i+1)+'\'});" target="_blank">'+decodeURIComponent(newsIndexData[i]['sTitle'])+'</a>'+(newsIndexData[i]['sTitleIcon']==1?'<em class="hot">HOT</em>':'')+'</li>'
+	}
+	get$('newsList').innerHTML=newsStr;
+}
+//五大子品牌
+var five=
+{
+	info:['1997','1998','1999','2000','2001']
+	,BtnsBox:document.getElementById('fBtns')
+	,PicsBox:document.getElementById('fPics')
+	,part4:document.getElementById('part4')
+	,Btns:[]
+	,Icons:[]
+	,Pics:[]
+	,Imgs:[]
+	,now:1
+	,change:null
+	,pUrl:'//ossweb-img.qq.com/upload/adw/'
+	,cliWidth:null
+	,cliHeight:null
+	,xx:null
+}
+five.inner=function()
+{
+	for(var i=0;i<five.info.length;i++)
+	{
+		var fB=document.createElement('li');
+		fB.className='rI'+(i+1);
+		var fIcon=document.createElement('span');
+		fIcon.className='rIcon'+(i+1);
+		var fA=document.createElement('a');
+		fA.href='javascript:void(0)'
+		fA.hideFocus="true";
+		fB.appendChild(fIcon);
+		fB.appendChild(fA);
+		five.BtnsBox.appendChild(fB);
+		five.Btns.push(fB);
+		five.Icons.push(fIcon);
+		var pA=document.createElement('a');
+		pA.setAttribute('onclick','pgvSendClick({hottag:\'index.five.link'+(i+1)+'\'});')
+		pA.href=oDaTaNew461['pos'+five.info[i]][1];
+		pA.target='_blank';
+		pA.innerHTML='<span class="loadI2">'+decodeURIComponent('%E6%AD%A3%E5%9C%A8%E5%8A%A0%E8%BD%BD%E4%B8%AD%E2%80%A6%E2%80%A6')+'</span>';
+		var pImg=document.createElement('img');
+		if(i==five.now)
+		{
+			pA.style.zIndex='3';
+			pImg.src=five.pUrl+oDaTaNew461['pos'+five.info[i]][2];
+			five.Imgs.push(false);
+		}
+		else
+		{
+			pImg.setAttribute('rel',five.pUrl+oDaTaNew461['pos'+five.info[i]][2]);
+			five.Imgs.push(pImg);
+		}
+		pA.appendChild(pImg);
+		five.PicsBox.appendChild(pA);
+		five.Pics.push(pA);
+	}
+	if(navigator.userAgent.toLowerCase().indexOf("ipad")<0&&navigator.userAgent.toLowerCase().indexOf("iphone")<0&&navigator.userAgent.toLowerCase().indexOf("android")<0)
+	{
+		for(var i=0;i<five.info.length;i++)
+		{
+			var BtnsA=five.Btns[i].getElementsByTagName('a')[0];
+			BtnsA.href=oDaTaNew461['pos'+five.info[i]][1];
+			BtnsA.target='_blank';
+			BtnsA.setAttribute('onclick','pgvSendClick({hottag:\'index.five.btn'+(i+1)+'\'});')
+		}
+	}
+	five.btnCtr();
+	addsize(five.btnCtr)
+}
+five.btnCtr=function()
+{
+	five.cliWidth=document.documentElement.clientWidth;
+	if(five.part4.offsetWidth>=480)
+	{
+		if(five.change==null)
+		{
+			five.change=false;
+			five.style1();
+		}
+		if(five.change)
+		{
+			five.change=false;
+			five.part4.className=five.part4.className.replace(new RegExp("\\b"+"part4a"+"\\b\\s*","g"),"");
+			for(var i=0;i<five.info.length;i++)
+			{
+				five.Icons[i].style.width='3px';
+				five.Icons[i].style.height='100%';
+			}
+			five.Icons[five.now].style.width='100%';
+			five.style1();
+		}
+	}
+	else
+	{
+		if(five.change==null)
+		{
+			five.change=true;
+			five.part4.className+=" part4a";
+			five.style2();
+		}
+		if(!five.change)
+		{
+			five.change=true;
+			five.part4.className+=" part4a";
+			for(var i=0;i<five.info.length;i++)
+			{
+				five.Icons[i].style.width='100%';
+				five.Icons[i].style.height='3px';
+			}
+			five.Icons[five.now].style.height='100%';
+			five.style2();
+		}
+	}
+}
+//切换
+five.showPic=function(n)
+{
+	if(five.Imgs[n])
+	{
+		five.Imgs[n].src=five.Imgs[n].getAttribute('rel');
+		five.Imgs[n]=false;
+	}
+	for(var i=0;i<five.info.length;i++)
+	{
+		if(five.Pics[i].style.zIndex>1)five.Pics[i].style.zIndex=five.Pics[i].style.zIndex-1;
+	}
+	var pNow=five.Pics[n];
+	pNow.style.zIndex=3;
+	pNow.style.opacity=0;
+	var times=10;
+	(function(){
+		pNow.style.opacity=(11-times)/10;
+		times--;
+		if(times>0) setTimeout(arguments.callee,10)
+		else return
+	})()
+					
+}
+//正常模式
+five.style1=function()
+{
+	five.Icons[five.now].style.width='100%';
+	for(var i=0;i<five.info.length;i++)
+	{
+		five.hover(five.Btns[i],i)
+	}
+}
+five.hover=function(e,n)
+{
+	e.onmouseover=function()
+	{
+		if(five.Icons[n].style.width=='100%') return;
+		else
+		{
+			five.showPic(n)
+			five.xx=n;
+			for(var i=0;i<five.info.length;i++)
+			{
+				if(i!=n&&five.Icons[i].offsetWidth!=3)
+				{
+					five.iconShort(five.Icons[i])
+				}
+			}
+			five.iconLong(five.Icons[n],five.xx);
+			five.now=n;
+		}
+	}
+}
+five.iconLong=function(e,x)
+{
+	var nowWidth=five.Btns[0].offsetWidth;
+	(function(){
+		if(five.xx!=x) return;
+		else
+		{
+			e.style.width=e.offsetWidth+15+"px";
+			if(e.offsetWidth>nowWidth)
+			{
+				e.style.width="100%";
+			}
+			else setTimeout(arguments.callee,10)
+		}
+	})();
+}
+five.iconShort=function(e)
+{
+	var nowWidth=five.Btns[0].offsetWidth;
+	(function(){
+		var width = e.offsetWidth-10;
+		if(width<3){e.style.width = "3px";}
+		else
+		{
+			e.style.width = width + "px";
+			setTimeout(arguments.callee,10);
+		}
+	})();
+}
+//缩小模式
+five.style2=function()
+{
+	five.Icons[five.now].style.height='100%';
+	for(var i=0;i<five.info.length;i++)
+	{
+		five.hover2(five.Btns[i],i)
+	}	
+}
+five.hover2=function(e,n)
+{
+	e.onmouseover=function()
+	{
+		if(five.Icons[n].style.height=='100%') return;
+		else
+		{
+			five.showPic(n);
+			five.xx=n;
+			for(var i=0;i<five.info.length;i++)
+			{
+				if(i!=n&&five.Icons[i].offsetHeight!=3)
+				{
+					five.iconShort2(five.Icons[i])
+				}
+			}
+			five.iconLong2(five.Icons[n],five.xx);
+			five.now=n;
+		}
+	}
+}
+five.iconLong2=function(e,x)
+{
+	var nowHeight=five.Btns[0].offsetHeight;
+	(function(){
+		if(five.xx!=x) return;
+		else
+		{
+			e.style.height=e.offsetHeight+5+"px";
+			if(e.offsetHeight>nowHeight)
+			{
+				e.style.height="100%";
+			}
+			else setTimeout(arguments.callee,10)
+		}
+	})();
+}
+five.iconShort2=function(e)
+{
+	var nowHeight=five.Btns[0].offsetHeight;
+	(function(){
+		var height = e.offsetHeight-5;
+		if(height<3){e.style.height = "3px";}
+		else
+		{
+			e.style.height = height + "px";
+			setTimeout(arguments.callee,10);
+		}
+	})();
+}
+five.letsGo=function()
+{
+	five.inner();
+}
+function fiveGo()
+{
+//	if(navigator.userAgent.indexOf("MSIE")>0)
+//	{
+//		var rollAd = {
+//			id: "rollAd",
+//			name: "rollAd"
+//		};
+//		loadjs('//ossweb-img.qq.com/images/js/swfobject.js',function(){swfobject.embedSWF("//ossweb-img.qq.com/images/game/portal2012/rollAd.swf?v=3", "fiveBox", "960", "170", "8.0.0", null, flashvars, params, rollAd);},'')
+//	}
+//	else loadjs('//game.qq.com/time/qqadv/Info_new_461.js?v='+String(new Date()).split(":")[1],five.letsGo,'')
+    loadjs('//game.qq.com/time/qqadv/Info_new_461.js?v='+String(new Date()).split(":")[1],five.letsGo,'');
+
+}
+//新闻+新品测试表
+function fillWPNews()
+{
+	fillNews();
+	setTimeout(function(){loadjs('//game.qq.com/webplat/info/news_version3/128/2252/m98/index.js?v='+String(new Date()).split(":")[1],function(){
+		fillBeta();
+	},'')},300)
+}
+//游戏列表
+function fillGameList()
+{
+	var b=[];
+	for(var m in ost_o)
+	{
+		var e=ost_o[m];
+		len=e.i.length;
+		b.push('<div class="'+e.g.e+'"><h3>'+e.g.c+'</h3>')
+		b.push('<ul class="'+e.g.e+'">');
+		for(var x=0;x<len;x++)
+		{
+			b.push('<li><a href="'+(e.i[x].id?'//'+e.i[x].id+'.qq.com':'//'+e.i[x].url)+'?ADTAG=media.innerenter.gamecom.navigation" target="_blank">'+e.i[x].n+'</a>'+(e.i[x].stat?'<span class="'+e.i[x].stat+'">&rsaquo;</span>':'')+'</li>');
+		}
+		b.push('</ul></div>');
+	}
+//	b.push('<div class="bf2"></div>')
+	get$("gameList").innerHTML+=b.join("")+'</div>';
+}
+function tata()
+{
+	loadjs('https://pingjs.qq.com/tcss.ping.https.js',pings,'')
+}
+//[loadjs,"//pingjs.qq.com/ping_tcss_ied.js",pings,'']
+function ShowQR(){
+	var qr = document.getElementById('QRbox'),
+		clos = document.getElementById('QRbox-close');
+	qr.style.backgroundImage="url(//ossweb-img.qq.com/images/game/portal2012/qr.png)";
+	qr.style.display="block";
+	clos.onclick=function(){
+		qr.style.display="none";
+	}
+}
+function delay(){handle([[showLogo,'','',''],[loadjs,'/portal2012/js/tgAds.js',addGGs,''],[loadjs,'//game.qq.com/webplat/info/news_version3/128/3294/3321/m2617/index.js?v='+String(new Date()).split(":")[1],fillWPNews,''],[fiveGo,'','',''],[loadjs,'//ossweb-img.qq.com/images/js/topfiles/ost1310/ost.js',fillGameList,''] ,[ShowQR,'','',''],[loadjs,"//tajs.qq.com/stats?sId=22086270",tata,'']])};
+addload(delay);
+</script>
+</body>
+</html>
+<!--[if !IE]>|xGv00|45181fe4b1118a8bc7f13c0d79c20d8f<![endif]-->
