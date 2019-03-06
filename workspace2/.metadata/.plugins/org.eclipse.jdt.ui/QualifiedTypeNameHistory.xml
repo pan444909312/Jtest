@@ -49,7 +49,6 @@
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.TRANSACTION_MODE"/>
 <fullyQualifiedTypeName name="com.thread.TortoiseRabbit"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="com.thread.RecordCompany"/>
 <fullyQualifiedTypeName name="com.thread.Singer"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="com.ten.IO.employee"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
