@@ -2,7 +2,7 @@ package com.thread;
 
 /**
  * 创建线程的方法一：
- * 1、创建：继续thread，重写run方法
+ * 1、创建：继承thread，重写run方法
  * 2、启动：创建子类对象，调用子类对象的start方法
  * @author Administrator
  *

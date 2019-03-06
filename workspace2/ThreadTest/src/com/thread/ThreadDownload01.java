@@ -6,12 +6,18 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.apache.commons.io.FileUtils;
-
-public class ThreadDownload extends Thread{
+/**
+ * 创建线程的方法一：
+ * 1、创建：继承thread，重写run方法
+ * 2、启动：创建子类对象，调用子类对象的start方法
+ * @author Administrator
+ *
+ */
+public class ThreadDownload01 extends Thread{
 	private String url;
 	private String dest;
 	
-	public ThreadDownload(String url, String dest) {
+	public ThreadDownload01(String url, String dest) {
 		super();
 		this.url = url;
 		this.dest = dest;
@@ -37,9 +43,10 @@ public class ThreadDownload extends Thread{
 		
 	}
 	public static void main(String[] args) {
-		ThreadDownload td1 = new ThreadDownload("https://img1.gamersky.com/image2019/02/20190210_ddw_459_5/gamersky_04origin_07_20192101220F83.jpg", "copy1.jpg");
-		ThreadDownload td2 = new ThreadDownload("https://img1.gamersky.com/image2019/02/20190210_ddw_459_5/gamersky_13origin_25_20192101220C0C.jpg", "copy2.jpg");
-		ThreadDownload td3 = new ThreadDownload("https://img1.gamersky.com/image2019/02/20190210_ddw_459_11/gamersky_04origin_07_20192101422FC9.jpg", "copy3.jpg");
+		//创建线程子类对象
+		ThreadDownload01 td1 = new ThreadDownload01("https://img1.gamersky.com/image2019/02/20190210_ddw_459_5/gamersky_04origin_07_20192101220F83.jpg", "copy1.jpg");
+		ThreadDownload01 td2 = new ThreadDownload01("https://img1.gamersky.com/image2019/02/20190210_ddw_459_5/gamersky_13origin_25_20192101220C0C.jpg", "copy2.jpg");
+		ThreadDownload01 td3 = new ThreadDownload01("https://img1.gamersky.com/image2019/02/20190210_ddw_459_11/gamersky_04origin_07_20192101422FC9.jpg", "copy3.jpg");
 		//启动进程
 		td1.start();
 		td2.start();
