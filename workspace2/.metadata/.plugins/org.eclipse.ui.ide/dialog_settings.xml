@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-		<item value="D:\git_java\Jtest\workspace2"/>
-		<item value="D:\git_java\Jtest\workspace2\ThreadTest"/>
 		<item value="D:\GitProjectt\Jtest\workspace2\CommonIO"/>
 		<item value="D:\JavaProject\LeetCode"/>
 	</list>
